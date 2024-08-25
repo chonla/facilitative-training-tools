@@ -1,6 +1,7 @@
-# Facilitative Training Tools
-
-This is a curated list of activites maximizing learning experience.
+---
+title: Facilitative Training Tools
+description: A curated list of activites maximizing learning experience.
+---
 
 ## Solo Activities
 

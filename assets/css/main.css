@@ -1,0 +1,24 @@
+---
+---
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.markdown h1,
+.markdown h2 {
+    @apply text-xl font-bold;
+}
+
+.markdown ul {
+    @apply m-4 p-0 list-none flex flex-row gap-x-4 flex-wrap;
+    li {
+        @apply text-xl leading-8 p-0 m-0;
+        a {
+            @apply px-4 py-2 underline;
+            &:hover {
+                @apply bg-gray-600 text-gray-300 rounded-md;
+            }
+        }
+    }
+}

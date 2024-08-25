@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Thai:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <style type="text/css">
+        * {
+            font-family: "Noto Serif Thai", serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="max-w-full px-6 lg:px-8 py-24 sm:py-32 text-center">
+        <h2 class="text-4xl font-bold tracking-tight text-gray-800 sm:text-6xl">{{ page.title }}</h2>
+        <p class="mt-2 text-lg leading-8 text-gray-600">{{ page.description }}</p>
+    </div>
+    <section class="container markdown">
+        {{ content }}
+    </section>
+</body>
+
+</html>

@@ -29,10 +29,13 @@ github_username:  chonla
 
 # Build settings
 # theme: aviator
-remote_theme: just-the-docs/just-the-docs
+# remote_theme: just-the-docs/just-the-docs
 plugins:
+  - jekyll-postcss
   - jekyll-feed
 
+postcss:
+  cache: false
 search_enabled: true
 search.previews: 3
 search.preview_words_before: 5
