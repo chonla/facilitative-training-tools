@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  publicPath: "/facilitative-training-tools/",
   content: [
     "./_drafts/**/*.md",
     "./_includes/**/*.html",
