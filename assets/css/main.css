@@ -35,6 +35,6 @@
 }
 
 .breadcrumb ul li:not(:last-child)::after {
-    content: '\203A';
+    content: "\203A";
     @apply px-4 text-gray-500;
 }
