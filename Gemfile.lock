@@ -324,7 +324,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages (~> 232)
   http_parser.rb (~> 0.6.0)
-  jekyll
+  jekyll (~> 3.10)
   jekyll-feed (~> 0.12)
   jekyll-postcss (~> 0.5.0)
   rake
