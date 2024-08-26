@@ -19,7 +19,7 @@ description: A curated list of activites maximizing learning experience.
 
 ## Group Activities
 
-* Table Talk
+* [Table Talk](./pages/table-talk.md)
 * Standing Quiz
 * One Sentence Summary
 * Table Group Practice
@@ -29,7 +29,7 @@ description: A curated list of activites maximizing learning experience.
 
 ## Room/Class Activities
 
-* [Data Hunt](./data-hunt/index.md)
+* [Data Hunt](./pages/data-hunt.md)
 * Standing Survey
 * Pass the Question
 * Rap & Rhymes

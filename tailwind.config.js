@@ -5,17 +5,14 @@ module.exports = {
     "./_drafts/**/*.md",
     "./_includes/**/*.html",
     "./_layouts/**/*.html",
-    "./_pages/*.{html,md}",
+    "./_pages/**/*.{html,md}",
     "./_posts/*.md",
     "./*.{html,md}",
-    "./assets/css/*.css"
+    "./assets/css/*.css",
+    "./assets/covers/*.png"
   ],
   theme: {
-    extend: {
-      spacing: {
-        '24': '6rem',
-      }
-    },
+    extend: {}
   },
   plugins: [
     require('@tailwindcss/typography'),
