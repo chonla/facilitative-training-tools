@@ -25,3 +25,16 @@
 .markdown ul li a:hover {
     @apply bg-gray-600 text-gray-300 rounded-md;
 }
+
+.markdown img {
+    @apply rounded-md border-gray-800 border-2 border-solid aspect-square max-w-full;
+}
+
+.markdown article {
+    @apply text-lg;
+}
+
+.breadcrumb ul li:not(:last-child)::after {
+    content: '\203A';
+    @apply px-4 text-gray-500;
+}

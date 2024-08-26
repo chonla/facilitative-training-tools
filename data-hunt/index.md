@@ -1,5 +1,7 @@
-# Data Hunt
-
-![Data Hunt](./cover.png)
+---
+title: Data Hunt
+layout: activity
+cover: ./cover.png
+---
 
 ผู้เรียนไปรวบรวมเนื้อหาที่เรียนไปแล้วจากผู้เรียนในกลุ่มอื่น และนำกลับมาแชร์ในกลุ่มตัวเอง
