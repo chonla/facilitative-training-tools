@@ -41,19 +41,16 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - run: npm install
+      - name: Node install
+        run: npm install
       - name: Bundle install
         run: bundle install
         env:
           JEKYLL_ENV: production
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: .
-          destination: ./_site
-          verbose: true
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
