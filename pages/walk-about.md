@@ -1,7 +1,7 @@
 ---
 title: Walk About
 layout: activity
-cover: walk about.png
+cover: walk-about.png
 tags:
     - duo
     - trio
