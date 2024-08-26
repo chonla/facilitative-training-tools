@@ -4,7 +4,7 @@ ruby file: ".ruby-version"
 
 gem 'rake'
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
-gem 'jekyll'
+gem 'jekyll', "~> 4.3"
 
 gem "github-pages", "~> 232", group: :jekyll_plugins
 group :jekyll_plugins do
