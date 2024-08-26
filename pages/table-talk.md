@@ -1,7 +1,9 @@
 ---
 title: Table Talk
 layout: activity
-cover: /facilitative-training-tools/assets/covers/table-talk.png
+cover: table-talk.png
+tags:
+    - group
 ---
 
-ผู้เรียนไปรวบรวมเนื้อหาที่เรียนไปแล้วจากผู้เรียนในกลุ่มอื่น และนำกลับมาแชร์ในกลุ่มตัวเอง
+ผู้เรียนจับกลุ่มคุยกันเกี่ยวกับเรื่องที่ได้เรียนไปแล้วในคลาส

@@ -28,7 +28,7 @@
         </nav>
     </div>
     <section class="max-w-full px-6 lg:px-8 markdown pb-24 grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-8">
-        <div class="flex"><img src="{{ page.cover }}"></div>
+        <div class="flex"><img src="{{ "/assets/covers/" | relative_url }}{{ page.cover }}"></div>
         <article class="flex">{{ content }}</article>
     </section>
 </body>
