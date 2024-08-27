@@ -12,7 +12,7 @@ description: A curated list of activites maximizing learning experience.
 * [Pair Share](./pages/pair-share.md)
 * [Walk About](./pages/walk-about.md)
 
-## Trio Actiivities
+## Trio Activities
 
 * [Triads](./pages/triads.md)
 * [Walk About](./pages/walk-about.md)

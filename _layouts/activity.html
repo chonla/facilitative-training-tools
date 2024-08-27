@@ -21,9 +21,9 @@
     <div class="max-w-full px-6 lg:px-8 py-12 sm:py-16 text-left">
         <h2 class="text-4xl font-bold tracking-tight text-gray-800 sm:text-6xl pb-4 sm:pb-2">{{ page.title }}</h2>
         <nav class="breadcrumb">
-            <ul class="text-base font-semibold list-none m-0 p-0 flex flex-row">
-                <li><a href="{{ "/" | relative_url }}">{{ site.title }}</a></li>
-                <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
+            <ul class="text-base font-semibold list-none m-0 p-0 flex flex-row flex-wrap">
+                <li><a class="no-wrap" href="{{ "/" | relative_url }}">{{ site.title }}</a></li>
+                <li><a class="no-wrap" href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
             </ul>
         </nav>
     </div>
